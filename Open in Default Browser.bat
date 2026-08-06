@@ -1,3 +1,3 @@
 @echo off
 echo Opening GSC Weather Channel in your default browser...
-start "" "weather-channel.html"
+start "" "index.html"
