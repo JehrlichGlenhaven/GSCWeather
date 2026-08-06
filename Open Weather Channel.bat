@@ -8,7 +8,7 @@ REM Wait a moment for the server to start
 timeout /t 2 /nobreak >nul
 
 REM Open Chrome in full-screen kiosk mode
-start chrome --kiosk http://127.0.0.1:8080/weather-channel.html
+start chrome --kiosk http://127.0.0.1:8080/index.html
 
 REM Optional: to open in a normal full-screen window instead of kiosk mode, use this line instead:
-REM start chrome --start-fullscreen http://127.0.0.1:8080/weather-channel.html
+REM start chrome --start-fullscreen http://127.0.0.1:8080/index.html
