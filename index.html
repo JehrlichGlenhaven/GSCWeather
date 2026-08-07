@@ -433,6 +433,11 @@
 
     // Start radar
     initRadar();
+
+    // Auto-reload the entire page every 10 minutes
+    setTimeout(() => {
+      location.reload();
+    }, 600000);
   </script>
 </body>
 </html>
